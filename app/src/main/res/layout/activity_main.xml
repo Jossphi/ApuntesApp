@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.joseph.apuntesapp.MainActivity">
+
+    <ListView
+        android:id="@+id/listViewApuntes"
+        android:layout_width="361dp"
+        android:layout_height="287dp"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="159dp" />
+
+    <Button
+        android:id="@+id/btnNuevoApunte"
+        android:layout_width="367dp"
+        android:layout_height="36dp"
+        android:text="Nuevo Apunte"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="459dp" />
+
+</android.support.constraint.ConstraintLayout>
